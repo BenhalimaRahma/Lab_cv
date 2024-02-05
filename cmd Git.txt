@@ -1,3 +1,10 @@
 1) git init = initialiser un dépot local
 é) git status=  connaitre les updates sur working directory
 3) git add --all = ajouter le fichier du working dans le starage directory
+4) git config --global user.email "you@example.com" : pour modifier ou ecraser l'ancienne @ email
+   git config --global user.name "Your Name"
+5) git config --global  user.email/user.name = pour consulter l'email et Name
+6)git log = pour afficher l'historique globale
+7)git log --oneline = l'historique en une seule ligne
+8)git remote add origin https://github.com/BenhalimaRahma/Lab_cv.git = permet d'attacher /associer une repot distant à notre repo locale
+9)git push -u origin master 
