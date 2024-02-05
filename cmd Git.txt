@@ -1,10 +1,23 @@
-1) git init = initialiser un dépot local
-é) git status=  connaitre les updates sur working directory
-3) git add --all = ajouter le fichier du working dans le starage directory
-4) git config --global user.email "you@example.com" : pour modifier ou ecraser l'ancienne @ email
-   git config --global user.name "Your Name"
-5) git config --global  user.email/user.name = pour consulter l'email et Name
-6)git log = pour afficher l'historique globale
-7)git log --oneline = l'historique en une seule ligne
-8)git remote add origin https://github.com/BenhalimaRahma/Lab_cv.git = permet d'attacher /associer une repot distant à notre repo locale
-9)git push -u origin master 
+1)git init = initialiser un dépôt local
+
+2)git status : connaitre les updates sur le working directory
+
+3)git add --all : ajouter les fichiers du working directory au staging area
+
+4)git config --global user.email "you@example.com" : ajouter un email du user 
+
+5)git config --global user.name "Your Name" : ajouter le nom du user 
+
+6)git commit -m"votre message"
+
+7)git log --oneline :  apreçu réduit sur les commits
+
+8)git log : aperçu étendu sur les commits(plusieurs lignes avec plus de détails)
+
+9)git config --global user.email / user.name : consulter l'email ou le nom du user
+
+10)git remote add origin https://github.com/MezghichGit/lab_cv.git : cette commander permet d'attacher un repo distant à notre repo local
+
+11)git push -u origin master : va envoyer les data (commit + code) vers le repo distant sur la branche master(qui sera aussi créé)[-u upStream]
+
+12)git push : une fois que nous avons créer la branche master en remote, il faut juste faire un git push
